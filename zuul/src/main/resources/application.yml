@@ -1,0 +1,16 @@
+zuul:
+  routes:
+    static:
+      path: /**
+      url: http://localhost:8000
+  include-debug-header: true
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      expose: '*'
+  server:
+    port: 8181
