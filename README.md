@@ -26,7 +26,7 @@ java -jar target/zuul-0.0.1-SNAPSHOT.jar
 
 ## Terminal 3 (gateway)
 ```bash
-cd zuul
+cd gateway
 ./mvnw clean package
 java -jar target/gateway-0.0.1-SNAPSHOT.jar 
 ```

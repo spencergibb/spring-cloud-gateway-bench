@@ -1,1 +1,1 @@
-hello
+{output:"I Love Spring Cloud"}

@@ -1,0 +1,95 @@
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    94.46ms  114.17ms   1.98s    94.42%
+    Req/Sec   245.75     79.24   590.00     71.43%
+  69430 requests in 30.08s, 9.80MB read
+  Socket errors: connect 0, read 151, write 5, timeout 106
+Requests/sec:   2308.38
+Transfer/sec:    333.64KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    70.10ms   65.45ms 735.14ms   76.18%
+    Req/Sec   331.12    121.85     1.14k    68.67%
+  98309 requests in 30.10s, 13.88MB read
+  Socket errors: connect 0, read 182, write 0, timeout 0
+  Non-2xx or 3xx responses: 2
+Requests/sec:   3266.24
+Transfer/sec:    472.10KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    69.66ms   63.80ms 928.06ms   75.01%
+    Req/Sec   329.90    129.90   830.00     66.60%
+  98391 requests in 30.04s, 13.89MB read
+  Socket errors: connect 0, read 182, write 0, timeout 0
+  Non-2xx or 3xx responses: 1
+Requests/sec:   3275.73
+Transfer/sec:    473.45KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    64.90ms   63.06ms 766.89ms   83.93%
+    Req/Sec   362.26    152.24     2.09k    69.65%
+  106891 requests in 30.10s, 15.09MB read
+  Socket errors: connect 0, read 193, write 0, timeout 0
+Requests/sec:   3551.38
+Transfer/sec:    513.30KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    56.49ms   48.79ms 453.57ms   73.11%
+    Req/Sec   401.71    134.95     1.05k    67.42%
+  120143 requests in 30.09s, 16.96MB read
+  Socket errors: connect 0, read 167, write 0, timeout 0
+  Non-2xx or 3xx responses: 1
+Requests/sec:   3992.13
+Transfer/sec:    577.01KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.15ms   58.71ms 604.65ms   79.08%
+    Req/Sec   374.53    144.79   797.00     65.98%
+  111533 requests in 30.03s, 15.74MB read
+  Socket errors: connect 0, read 160, write 0, timeout 0
+  Non-2xx or 3xx responses: 1
+Requests/sec:   3714.10
+Transfer/sec:    536.81KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    56.20ms   57.27ms 849.91ms   88.56%
+    Req/Sec   415.06    132.94   800.00     68.49%
+  123398 requests in 30.10s, 17.42MB read
+  Socket errors: connect 0, read 183, write 0, timeout 0
+  Non-2xx or 3xx responses: 1
+Requests/sec:   4099.69
+Transfer/sec:    592.55KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    54.72ms   55.47ms 739.17ms   89.06%
+    Req/Sec   421.86    127.47     0.89k    69.20%
+  124535 requests in 30.10s, 17.58MB read
+  Socket errors: connect 0, read 187, write 0, timeout 0
+Requests/sec:   4137.99
+Transfer/sec:    598.08KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    63.31ms   57.64ms 599.52ms   75.25%
+    Req/Sec   367.45    141.81     1.32k    67.41%
+  109399 requests in 30.10s, 15.44MB read
+  Socket errors: connect 0, read 165, write 0, timeout 0
+Requests/sec:   3634.62
+Transfer/sec:    525.32KB
+Running 30s test @ http://localhost:8082/hello.txt
+  10 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    55.26ms   49.36ms 552.37ms   77.35%
+    Req/Sec   417.97    123.65     0.88k    68.51%
+  123747 requests in 30.09s, 17.47MB read
+  Socket errors: connect 0, read 92, write 14, timeout 0
+Requests/sec:   4112.18
+Transfer/sec:    594.35KB
