@@ -108,7 +108,8 @@ function runStatic() {
         GOOS=darwin GOARCH=amd64 go build -o webserver.darwin-amd64 webserver.go
         ./webserver.darwin-amd64
     elif [ "$PLATFORM" == "$LINUX" ]; then
-        echo "Googling"
+        # go build -o webserver webserver.go
+        ./webserver
         exit 1
     elif [ "$PLATFORM" == "$WIN" ]; then
         echo "Googling"
@@ -159,6 +160,16 @@ function ctrl_c() {
 #Run Static web server
 runStatic &
 
+echo "Verifying static webserver is running"
+
+response=$(curl http://localhost:8000/hello.txt)
+if [ '{output:"I Love Spring Cloud"}' != "${response}" ]; then
+    echo
+    echo "Problem running static webserver, response: $response"
+    echo
+    exit 1
+fi;
+
 echo "Wait 10"
 sleep 10
 
@@ -175,9 +186,9 @@ runGateways
 
 #Execute performance tests
 
-function warnup() {
+function warmup() {
 
-    echo "JVM Warnup"
+    echo "JVM Warmup"
 
     for run in {1..10}
     do
@@ -203,7 +214,7 @@ function runPerformanceTests() {
     echo "Wait 60 seconds"
     sleep 60
 
-    warnup
+    warmup
 }
 
 runPerformanceTests
